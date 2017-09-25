@@ -1,0 +1,57 @@
+ '=' is used to initialize variables an example would be "x=2".
+ This will initialize x to the value of 2.
+ '==' is used as a comparison operation. It represents equals to.
+ You would use it whenever you need a comparison. For example number==2.
+ This asks if the int number equals 2.
+ If it does equal 2 it returns true if it does not it returns false.
+ '.equals' is used to compare String objects. It works similar to '=='. Because Strings
+ are not primitive date types they can not be compared with '=='.
+----------------------------
+ Switch statements take a value of a variable and execute a code section based on the value of the variable.
+ Here is an example: switch(numberOfFish){
+                            case 1: out.println("There is one fish.");
+                                    break;
+                            case 2: out.println("There is two fish.");
+                                    break;
+                            default:out.println("I can't count the fish.");
+                                    break;
+
+                                          }
+ In the example above if numberOfFish = 1 "There is one fish" prints out if numberOfFish = 2
+ "There is two fish." will print out. All other values will result in " I can't count the fish".
+
+
+
+ An if/else statement does a comparison and executes it. However if the condition is not met
+ it executes the code within the else portion.
+
+ Example:
+            if(number = 1){
+                System.out.print("Hello");
+            } else {
+                System.out.print("Goodbye");
+            }
+
+In the example above if number = 1 Hello will print out all other values will result in the Goodbye Print out.
+
+if/else is a convenient statement to use when you only have a few values. As the number of values increases switch becomes
+more practical. The biggest advantage to using switch statement is the ease of readability and understanding compared to if/else.
+--------------------------------
+Void in the method declaration means that the method does not have a return value. Methods that state a type are declaring the data
+type of there return value. You can have a variable assignment when a method is called that has a return type.
+For example int howManyFish = goneFishing(); . However, you could not do this with a method that has a void return type.
+---------------------------------------
+Parameters are the variables declared within  a method.
+In the example bellow oilType and Temperature are parameters.
+
+  fishCooker(String oilType, int Temperature){
+    //code here
+  };
+
+  Arguments are the specific variables used when a method is executed.
+  In the example below oilUsed and Temp are the parameters.
+  String oilUsed = "Olive";
+  int Temp = 315;
+
+  fishCooker(oilUsed,Temp);
+-------------------------------------------
